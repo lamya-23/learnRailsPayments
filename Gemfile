@@ -31,7 +31,7 @@ end
 
 gem 'jquery-rails'
 gem 'test-unit', '~> 3.0'
-gem 'puma', '~> 1.6', '>= 1.6.3'
+gem 'puma', '~> 3.12'
 
 gem 'turbolinks', '~> 2.5', '>= 2.5.3'
 gem 'jquery-turbolinks'
