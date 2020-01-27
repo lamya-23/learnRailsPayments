@@ -17,7 +17,7 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 #add twitter bootstrap
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'activerecord-import'
 gem 'turbolinks', '~> 2.5', '>= 2.5.3'
 # Gems used only for assets and not required
