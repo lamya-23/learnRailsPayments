@@ -15,6 +15,9 @@ gem 'pg', group: :production
 
 #12factor for heroku
 gem 'rails_12factor', group: :production
+
+#add twitter bootstrap
+gem 'bootstrap-sass', '~> 2.1.1.0'
 gem 'activerecord-import'
 
 # Gems used only for assets and not required
