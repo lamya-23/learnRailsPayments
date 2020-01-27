@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 #heroku should use this version of ruby
-ruby '2.3.3'
+#ruby '2.3.3'
 gem 'rails', '3.2.22'
 
 # Bundle edge Rails instead:
