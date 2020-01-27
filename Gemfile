@@ -1,12 +1,20 @@
 source 'https://rubygems.org'
 
+
+#heroku should use this version of ruby
+ruby '2.3.3'
 gem 'rails', '3.2.22'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '1.3.13'
+gem 'sqlite3', '1.3.13', group: [:development, :test]
 
+#postgres for production db
+gem 'pg', group: :production
+
+#12factor for heroku
+gem 'rails_12factor', group: :production
 gem 'activerecord-import'
 
 # Gems used only for assets and not required
