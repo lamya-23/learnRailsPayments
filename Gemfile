@@ -38,7 +38,8 @@ gem 'puma', '~> 1.6', '>= 1.6.3'
 
 gem 'turbolinks', '~> 2.5', '>= 2.5.3'
 gem 'jquery-turbolinks'
-
+#stripe for taking payments
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
