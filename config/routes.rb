@@ -1,6 +1,6 @@
 LearnRailsPayments::Application.routes.draw do
  root to: 'pages#home'
-
+ resources :charges
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

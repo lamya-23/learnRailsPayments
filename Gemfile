@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
-
+git_source(:github) do |repo_name|
+	repo_name = "#{repo_name}/#{repo_name}" unless repo_name.inclure?("/")
+	"https://github.com/#{repo_name}.git"
+end
 
 #heroku should use this version of ruby
 #ruby '2.3.3'
@@ -8,18 +11,18 @@ gem 'rails', '3.2.22'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '1.3.13', group: [:development, :test]
+gem 'sqlite3', '1.3.13'
 
 #postgres for production db
-gem 'pg', group: :production
+
 
 #12factor for heroku
 gem 'rails_12factor', group: :production
 
 #add twitter bootstrap
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 2.0.1'
 gem 'activerecord-import'
-gem 'turbolinks', '~> 2.5', '>= 2.5.3'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -36,10 +39,13 @@ gem 'jquery-rails'
 gem 'test-unit', '~> 3.0'
 gem 'puma', '~> 1.6', '>= 1.6.3'
 
-gem 'turbolinks', '~> 2.5', '>= 2.5.3'
-gem 'jquery-turbolinks'
+
+
 #stripe for taking payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
+
+gem 'turbolinks', '~> 2.5', '>= 2.5.3'
+gem 'jquery-turbolinks'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

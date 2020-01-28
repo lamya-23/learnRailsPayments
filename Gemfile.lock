@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/stripe/stripe-ruby
-  revision: dcb503dc7120ea3f5783c463e04e83368e027d1a
+  revision: 7182ae0f8b3df1acfb12e3e05bfae95016edf3e9
   specs:
     stripe (5.14.0)
 
@@ -37,8 +37,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     arel (3.0.3)
-    bootstrap-sass (3.2.0.4)
-      sass (~> 3.2)
+    bootstrap-sass (2.0.4.2)
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -67,7 +66,6 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     multi_json (1.14.1)
-    pg (1.2.2-x64-mingw32)
     polyglot (0.3.5)
     power_assert (1.1.5)
     puma (1.6.3)
@@ -138,11 +136,10 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-import
-  bootstrap-sass (~> 3.2.0)
+  bootstrap-sass (~> 2.0.1)
   coffee-rails (~> 3.2.1)
   jquery-rails
   jquery-turbolinks
-  pg
   puma (~> 1.6, >= 1.6.3)
   rails (= 3.2.22)
   rails_12factor
