@@ -37,7 +37,7 @@ end
 
 gem 'jquery-rails'
 gem 'test-unit', '~> 3.0'
-gem 'puma', '~> 1.6', '>= 1.6.3'
+gem 'puma', '~> 3.12'
 
 
 
