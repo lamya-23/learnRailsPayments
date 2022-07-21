@@ -49,6 +49,7 @@ GEM
     concurrent-ruby (1.1.5)
     erubis (2.7.0)
     execjs (2.7.0)
+    ffi (1.12.1)
     ffi (1.12.1-x64-mingw32)
     hike (1.2.3)
     i18n (0.9.5)
@@ -117,6 +118,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    sqlite3 (1.3.13)
     sqlite3 (1.3.13-x64-mingw32)
     test-unit (3.3.5)
       power_assert
@@ -127,11 +129,12 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (2.5.4)
       coffee-rails
-    tzinfo (0.3.56)
+    tzinfo (0.3.61)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
